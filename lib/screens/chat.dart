@@ -18,8 +18,8 @@ class _ChatScreenState extends State<ChatScreen> {
 
     await fcm.requestPermission();
 
-    final token = await fcm.getToken();
-    print(token);
+    // final token = await fcm.getToken();
+    // print(token);
   }
 
   @override
